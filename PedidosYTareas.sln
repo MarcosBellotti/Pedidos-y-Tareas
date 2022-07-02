@@ -9,6 +9,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioWebREST", "ServicioWebREST\ServicioWebREST.csproj", "{D8E04A4B-106A-48A2-B818-4D89DBCD3123}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ServicioSOAP", "ServicioSOAP\", "{EE5B43D0-C116-4888-93C2-7CFC9D4465D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{e9831cb6-ba03-41da-a464-65c34efdb9ed}|Logica.dll;{55C1A243-0062-4BAD-BA0E-9BDCB25AC551}|Entidades.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62868"
+		Debug.AspNetCompiler.PhysicalPath = "ServicioSOAP\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62868\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62868"
+		Release.AspNetCompiler.PhysicalPath = "ServicioSOAP\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62868\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62868"
+		SlnRelativePath = "ServicioSOAP\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +50,10 @@ Global
 		{D8E04A4B-106A-48A2-B818-4D89DBCD3123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8E04A4B-106A-48A2-B818-4D89DBCD3123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8E04A4B-106A-48A2-B818-4D89DBCD3123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5B43D0-C116-4888-93C2-7CFC9D4465D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5B43D0-C116-4888-93C2-7CFC9D4465D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5B43D0-C116-4888-93C2-7CFC9D4465D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5B43D0-C116-4888-93C2-7CFC9D4465D1}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

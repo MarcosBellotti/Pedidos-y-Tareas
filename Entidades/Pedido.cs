@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Enumeradores
-    {
-        public enum EstadoTarea { NINGUNO, PENDIENTE, REALIZADO}
-    }
+public class Enumeradores
+{
+public enum EstadoTarea { NINGUNO, PENDIENTE, REALIZADO}
+}
     public class Pedido
     {
         public int Id { get; set; }
